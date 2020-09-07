@@ -7,7 +7,7 @@ import yajco.model.utilities.Utilities;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OptionalPart extends YajcoModelElement implements NotationPart {
+public class OptionalPart extends YajcoModelElement implements CompoundNotationPart {
     private List<NotationPart> parts;
 
     public OptionalPart(@Range(minOccurs = 1) NotationPart[] parts) {
